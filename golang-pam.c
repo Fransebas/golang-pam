@@ -1,4 +1,6 @@
+#ifdef __APPLE__
 #include <security/pam_types.h>
+#endif
 #include <security/pam_appl.h>
 #include <stdlib.h>
 #include <string.h>
